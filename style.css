@@ -1,0 +1,438 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.smalltitle{
+    color:red;
+}
+.numberofproduct{
+    color:red;
+    opacity: 0.3;
+}
+.redbox{
+    width:190px;
+    height:190px;
+    background-color:rgb(244, 89, 89);
+    margin-top:70px;
+    opacity: 0.5;
+}
+.hero img{
+    width: 200px;
+    height: 600px;
+    display: block;
+    margin:0 auto;
+    width: 98%;
+   filter:brightness(0.4)
+}
+.hero_text{
+    position: absolute;
+    width:40%;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:40px; 
+}
+.navbar_content{
+    display: flex;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+}
+.navbar_content img{
+    width:40px;
+    height:20px;
+    padding:10px 0 10px;
+    margin-left: 15px;
+}
+.navbar_content h4{
+    position:absolute;
+    right:16px;
+
+}
+.navbar_content h3{
+    position: absolute;
+    /* top: 50%; */
+    top:3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero_section{
+    position: relative;
+}
+
+
+.plus{
+    color:red;
+}
+
+
+.leftstat{
+    width:450px;
+    
+}
+.leftstat h1{
+    font-size: 50px;
+}
+.rightstat{
+    width:400px;
+    margin-top: 100px;
+}
+
+
+.stat{
+    width: 80%;
+    display: block;
+    margin:0 auto;
+    margin-top: 150px;;
+    width: 58%;
+
+    
+    /* text-align: center; */
+}
+.statistic{
+    display: flex;
+    /* flex-direction: column; */
+}
+.number_stat{
+    margin-top:70px;
+    display: flex;
+}
+.stat_1{
+    width:280px;
+    
+}
+.stat_1 h1{
+    margin-left:20px;
+}
+.stat_2{
+    width:280px;
+    text-align: center;
+}
+.stat_3{
+    width:280px;
+    text-align: center;
+
+}
+.number_stat h1{
+    font-size: 70px;
+}
+
+
+
+
+
+
+
+
+.card{
+    width:230px;
+    height:300px;
+    text-align: center;
+    /* padding:15px; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.09);
+    margin:20px;
+    margin-top:100px;
+
+    
+    
+   
+
+}
+#card{
+    display: flex;
+    margin-left:300px;
+
+
+}
+.card img{
+    width: 230px;
+    height:210px;
+    
+}
+
+/* .shadow_text{
+    color:white;
+    border: 1px;
+} */
+
+.procurement_part{
+    margin-top:150px;
+}
+.procurement_part h1{
+    margin-left:318px;
+    font-size: 50px;
+    width:600px;
+    margin-top:10px;
+}
+.procurement_part p{
+    margin-left:318px;
+
+}
+
+
+.shadow_text1,.shadow_text2{
+    color: white;
+	font-size: 60px;
+	-webkit-text-stroke: 1px black;
+    
+    
+}
+.shadow_text1{
+    position:relative;
+    top:50px;
+}
+
+.normal_text{
+    font-size:70px;
+    /* position:relative;
+    top:-30px; */
+
+}
+.we_serve{
+    margin-left: 10%;
+    margin-top:100px;
+    width:70%;
+}
+.we_serve p{
+    margin-top:50px;
+}
+hr{
+   /* color:green;
+   transform:rotate(90deg);
+  
+   margin-left:-30px; */
+}
+.partner_company{
+  
+  width:70%;
+  margin:auto;
+  margin-top:90px;
+  margin-bottom:80px;
+  /* display: flex;
+  flex-direction: row; */
+
+}
+.partner_company h3{
+    text-align:center;
+    margin-bottom:20px;
+}
+.partner_company img{
+
+        width:150px;
+        height:80px;
+        margin:0 20px;
+}
+
+.product{
+    display: flex;
+    padding:40px;
+    width:70%;
+    margin: auto;
+}
+.product p{
+    margin-top:10px;
+    width:300px;
+}
+.product img{
+    height:40px;
+    margin-left:35px;
+
+    width:40px;
+    
+}
+.text{
+    margin-left:25px;
+}
+.productclass{
+    width:60%;
+  
+    /* position:absolute;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+
+*/
+} 
+#aboutus{
+    background-image: url(images/image_se.png);
+}
+.aboutus2{
+    width:700px;
+    height:400px;
+    color:#ffff;
+    margin-left:250px;
+    padding-top:90px;
+
+}
+.aboutus h1{
+    width:300px;
+    font-size:40px;
+}
+.aboutus2ndpara{
+    width:450px;
+}
+.infra{
+    display: flex;
+    margin-top:50px;
+}
+.infra1 h1{
+    margin-top:20px;
+}
+.infra2 h1{
+    margin-top:10px;
+}
+.infra3 h1{
+    margin-top:15px;
+}
+.infra2{
+    position:relative;
+    left:150px;
+}
+.infra3{
+    position:relative;
+    left:300px;
+}
+#form{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+
+
+}
+.form_data{
+    display: flex;
+    flex-direction:column;
+}
+.form_data h1{
+    font-size:50px;
+}
+.formbox{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+.form_data input{
+    width:300px;
+    height:30px;
+    margin-top:10px;
+    padding:5px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-style:none;
+}
+.comment{
+    width:300px;
+    height:80px;
+}
+.formleft{
+   width:50%;
+    height:500px; 
+    background-color: rgb(35, 21, 96);
+    color:#ffff;
+
+    /* padding:100px; */
+}
+.formleftdata{
+    
+    display: flex;
+    position: relative;
+    left: 200px;
+    margin-top:50px;
+
+   
+}
+.formabout{
+    background-color: white;
+    height:390px;
+    width:160px;
+    padding:10px 20px 0px 20px;
+    margin-left: -100px;
+    margin-top:50px;
+}
+.formabout h1{
+    margin:15px 5px 8px 0px;
+    font-size: 20px;
+}
+.formabout p{
+    margin-bottom:10px;
+}
+
+button{
+    width:320px;
+    height:40px;
+    background-color: rgb(246, 70, 70);
+    border-style: none;
+    border-radius: 10px;
+    color:white;
+    font-weight: 800;
+    margin-top: 20px;
+}
+/* .formright{
+   
+    width:50%;
+    height:600px;
+} */
+.map img{
+    height:400px;
+    width:350px;
+    margin-top:50px;
+}
+footer{
+    display:flex;
+    background-color: #000;
+    padding:40px;
+}
+.footer_1{
+    display: flex;
+    flex-direction:column;
+    margin-left:220px;
+    color:rgb(175, 175, 175);
+    /* font-size: 15px;; */
+}
+.footer_1 a{
+    margin: 10px 0px 5px 0px;
+}
+.footer_2{
+    color:white;
+    margin-left:220px;
+}
+.footer_2 li{
+
+    margin: 10px 0px 5px 0px;
+
+}
+.footer_2 p{
+    font-size:35px;
+    color:rgb(175, 175, 175);
+    
+}
+
+
+li{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.socialsites{
+    margin-left: 100px;
+    width:20%;
+    color:#ffff;
+    position:absolute;
+    right:300px;
+}
+.socialsites img{
+    margin-bottom: 30px;
+    width:40px;
+    height:40px;
+    border-radius: 8px;
+   
+}
+.copyright{
+    /* color:white; */
+    padding:3px;
+    text-align: center;
+    background-color: bisque;
+}
