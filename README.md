@@ -1,4 +1,4 @@
-# PR-Alloys
+# PR-Alloys Landing page website
 https://aamir-razdan.github.io/PR-Alloys/
 ![Screenshot (1353)](https://user-images.githubusercontent.com/65817609/218966408-1c3c3ec0-9999-4a80-94ab-0e50f91a972c.png)
 ![Screenshot (1354)](https://user-images.githubusercontent.com/65817609/218966445-0c95fd43-fac1-4d94-a6e8-6dbf3702f3c8.png)
